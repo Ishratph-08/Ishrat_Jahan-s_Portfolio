@@ -27,11 +27,8 @@ This is a responsive and visually appealing portfolio website created using **HT
 
 - CSS animations are used to make elements fade in, slide, or bounce, enhancing the overall user experience.
 
----
-
 ## File Structure
 
-```plaintext
 portfolio-website/
 ├── index.html       # Main HTML file
 ├── styles/          # CSS folder
@@ -43,9 +40,7 @@ portfolio-website/
 
 1. Clone the repository:
 
-   ```bash
    git clone(https://github.com/Ishratph-08/Ishrat_Jahan-s_ Portfolio.git)
-   ```
 
 2. Open ` https://ishratph-08.github.io/Ishrat_Jahan-s_Portfolio/` in your preferred browser.
 3. Customize the content in `index.html` and styles in `styles/style.css` to reflect your personal portfolio.
@@ -72,9 +67,7 @@ portfolio-website/
 5. **Footer**
 
    - Social media links with scaling hover effects.
-
----
-
+   - 
 ## Key CSS Techniques Used
 
 1. **Flexbox & Grid**
@@ -108,8 +101,6 @@ You can preview the project by opening the `index.html` file in any modern brows
 
 - Icons from [Font Awesome](https://fontawesome.com/).
 - Fonts from [Google Fonts](https://fonts.google.com/).
-
----
 
 ## License
 
