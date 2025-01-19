@@ -88,22 +88,46 @@ nav {
     color: rgb(66, 63, 63);
     display: inline-block;
     border-radius: 50px;
+    
 }
 
 
 .hero-text h1 {
+    
     font-size: 60px;
+    padding: 20px;
     font-weight: 600;
     line-height: 65px;
     margin-bottom: 20px;
+    border-radius: 50px;
+    background: linear-gradient(120deg, #00fad7, #4e6d6b);
+    transition: transform 0.5s ease, color 0.5s ease;
 }
+.hero-text h1:hover {
+    transform: rotate(360deg); /* Full rotation */
+    color: yellow;
+  }
 
 .hero-text h2 {
     font-size: 26px;
     font-weight: 700;
     line-height: 26px;
     margin-bottom: 40px;
+    animation: rotateText 3s linear infinite;
 }
+
+/* Keyframe Animation for Rotating Letters */
+@keyframes rotateText {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(15deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
 
 
 .social-links {
