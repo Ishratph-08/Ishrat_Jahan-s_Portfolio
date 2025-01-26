@@ -17,7 +17,6 @@ nav> ul> li> a:hover{
     background-color: #00fad7;
     padding: 5px 5px 5px 5px;
     border-radius: 5px;
-    /* color: white; */
     font-size: larger;
 }
 
@@ -95,39 +94,22 @@ nav {
 .hero-text h1 {
     
     font-size: 60px;
-    padding: 20px;
     font-weight: 600;
     line-height: 65px;
     margin-bottom: 20px;
-    border-radius: 50px;
-    background: linear-gradient(120deg, #00fad7, #4e6d6b);
-    transition: transform 0.5s ease, color 0.5s ease;
+ 
 }
-.hero-text h1:hover {
-    transform: rotate(360deg); /* Full rotation */
-    color: yellow;
-  }
+
 
 .hero-text h2 {
     font-size: 26px;
     font-weight: 700;
     line-height: 26px;
     margin-bottom: 40px;
-    animation: rotateText 3s linear infinite;
+   
 }
 
-/* Keyframe Animation for Rotating Letters */
-@keyframes rotateText {
-    0% {
-      transform: rotate(0deg);
-    }
-    50% {
-      transform: rotate(15deg);
-    }
-    100% {
-      transform: rotate(0deg);
-    }
-  }
+
 
 
 .social-links {
@@ -172,7 +154,7 @@ nav {
 
 .social-links a:hover{
     
-    background-color: #474747;
+    background-color: #00fad7;
     color: white;
     border-radius: 6px;
 }
@@ -364,10 +346,7 @@ soft-skill{
     text-align: center;
 }
 .contact-bg{
-    background: url('../img/map-color-overlay.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    
     padding: 80px 0;
 }
 .contact-wrapper{
